@@ -1,0 +1,41 @@
+[
+  {
+    "id": "qualified-business",
+    "expected_route": "qualified",
+    "lead": {
+      "name": "Ana Torres",
+      "company": "Northstar Ops",
+      "email": "ana@northstar.example",
+      "company_size": 65,
+      "use_case": "Route and qualify inbound demo requests",
+      "monthly_volume": 320,
+      "budget_usd": 800,
+      "urgency_days": 10
+    }
+  },
+  {
+    "id": "review-missing-email",
+    "expected_route": "human_review",
+    "lead": {
+      "name": "No Email",
+      "company": "Growing Team",
+      "email": "invalid",
+      "company_size": 20,
+      "use_case": "Automate inbound request triage",
+      "monthly_volume": 100,
+      "budget_usd": 500,
+      "urgency_days": 14
+    }
+  },
+  {
+    "id": "nurture-low-signal",
+    "expected_route": "nurture",
+    "lead": {
+      "name": "Sam",
+      "company": "",
+      "email": "sam@gmail.com",
+      "use_case": "Need help"
+    }
+  }
+]
+

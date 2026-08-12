@@ -1,0 +1,26 @@
+[
+  {
+    "name": "  Ana   Torres  ",
+    "company": "Northstar Ops",
+    "email": "ANA@NORTHSTAR.EXAMPLE",
+    "source": "Website",
+    "company_size": 65,
+    "use_case": "Route and qualify inbound demo requests",
+    "monthly_volume": 320,
+    "budget_usd": 800,
+    "urgency_days": 10,
+    "notes": "Needs a review queue for borderline leads"
+  },
+  {
+    "name": "Sam",
+    "company": "",
+    "email": "sam@gmail.com",
+    "source": "referral",
+    "company_size": 1,
+    "use_case": "Need help",
+    "monthly_volume": 0,
+    "budget_usd": 0,
+    "urgency_days": 0
+  }
+]
+
